@@ -27,12 +27,7 @@ public class Player : MonoBehaviour
     {
            
                       
-            if (Input.)
-            {
-               rb.velocity = Vector2.up * playerSpeed;
-
-
-            }
+           
         
         
         
