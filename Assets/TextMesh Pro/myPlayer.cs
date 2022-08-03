@@ -10,10 +10,19 @@ public class myPlayer : MonoBehaviour
     public float speed = 0;
     private Touch touch;
     public Rigidbody2D rb ;
+
+    public Vector3 jump;
+    public float x,y,z;
+    
+    public float jumpForce = 2f;
   
   void start()
   {
       rb = GetComponent<Rigidbody2D>();
+
+
+      jump = new Vector3(x,y,z);
+      
   }
   
 
@@ -26,15 +35,18 @@ public class myPlayer : MonoBehaviour
         {
             touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Moved)
+            if (touch.phase == TouchPhase.Stationary)
             {
-                transform.position = new Vector2 (touch.deltaPosition.y*speed/4,
-                touch.deltaPosition.y*speed
-                    );
+               // transform.position = new Vector2 (touch.deltaPosition.y*speed/4,
+               // touch.deltaPosition.y*speed
+                        
+                     rb.AddForce(jump,ForceMode2D.Impulse);
+
+            }
             }
           // Debug.Log();
 
           //  transform.position = Vector2(0,speed*Time.deltaTime);
         }
     }
-}
+
