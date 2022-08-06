@@ -6,8 +6,11 @@ public class paralexBackground : MonoBehaviour
 {
     
     [SerializeField] private Vector2 paralexEffectMultiplier;
+    [SerializeField] private bool infiteHorizontal;
+    [SerializeField] private bool infiniteVertical;
     // Start is called before the first frame update
   private Transform cameraTansform;
+  //public GameObject cam;
   private Vector3 lastCameraPosition;
   private float textureUnitSizeX;
   private float textureUnitSizeY;
@@ -15,7 +18,7 @@ public class paralexBackground : MonoBehaviour
   
 
 
-  private void start()
+  private void Start()
   {
       cameraTansform = Camera.main.transform;
       lastCameraPosition = cameraTansform.position;
@@ -32,11 +35,20 @@ public class paralexBackground : MonoBehaviour
       transform.position += new Vector3( deltaMovement.x*paralexEffectMultiplier.x,deltaMovement.y*paralexEffectMultiplier.y);
       lastCameraPosition = cameraTansform.position;
 
+if (infiteHorizontal)
+{    
+
       if (Mathf.Abs( cameraTansform.position.x - transform.position.x) >= textureUnitSizeX)
       {
           float offsetPositionX = (cameraTansform.position.x - transform.position.x) % textureUnitSizeX;
           transform.position = new Vector3(cameraTansform.position.x + offsetPositionX, transform.position.y);
       }
+}
+
+
+if (infiniteVertical)
+{
+
 
       if (Mathf.Abs( cameraTansform.position.y - transform.position.y) >= textureUnitSizeY)
       {
@@ -44,4 +56,5 @@ public class paralexBackground : MonoBehaviour
           transform.position = new Vector3(transform.position.x, cameraTansform.position.y + offsetPositionY);
       }
   }
+}
 }

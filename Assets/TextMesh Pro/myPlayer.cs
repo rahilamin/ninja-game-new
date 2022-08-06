@@ -40,7 +40,8 @@ public class myPlayer : MonoBehaviour
                // transform.position = new Vector2 (touch.deltaPosition.y*speed/4,
                // touch.deltaPosition.y*speed
                         
-                     rb.AddForce(jump,ForceMode2D.Impulse);
+                     //rb.AddForce(jump,ForceMode2D.Impulse);
+                     rb.AddRelativeForce(jump,ForceMode2D.Impulse);
 
             }
             }
