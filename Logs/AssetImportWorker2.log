@@ -1,0 +1,602 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7514 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/humza/OneDrive/Documents/GitHub/ninja-game-new
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58986
+Successfully changed project path to: C:/Users/humza/OneDrive/Documents/GitHub/ninja-game-new
+C:/Users/humza/OneDrive/Documents/GitHub/ninja-game-new
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 244.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/humza/OneDrive/Documents/GitHub/ninja-game-new/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3757 MB
+    Driver:   27.20.14064.1003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010658 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 109.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1537ms)
+		BeginReloadAssembly (844ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (843ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (79ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026108 seconds.
+Android Extension - Scanning For ADB Devices 4907 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\humza\OneDrive\Documents\GitHub\ninja-game-new\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\humza\OneDrive\Documents\GitHub\ninja-game-new\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (55.3 KB). Loaded Objects now: 4581.
+Memory consumption went from 154.6 MB to 154.6 MB.
+Total: 5.073700 ms (FindLiveObjects: 0.918800 ms CreateObjectMapping: 0.403800 ms MarkObjects: 3.305200 ms  DeleteObjects: 0.444200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\humza\OneDrive\Documents\GitHub\ninja-game-new\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\humza\OneDrive\Documents\GitHub\ninja-game-new\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1529ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4584.
+Memory consumption went from 152.7 MB to 152.7 MB.
+Total: 3.876300 ms (FindLiveObjects: 0.514900 ms CreateObjectMapping: 0.280400 ms MarkObjects: 3.043600 ms  DeleteObjects: 0.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 613953.133321 seconds.
+  path: Packages/com.unity.2d.sprite/package.json
+  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab794777eb78032da916509d57055a4') in 0.046795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.972670 seconds.
+  path: Packages/com.unity.2d.psdimporter/package.json
+  artifactKey: Guid(2f948ecb81c850949a2725b1ba265844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/package.json using Guid(2f948ecb81c850949a2725b1ba265844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd76cefb3ce60d09bb30bcd87c77a584') in 0.009384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.469848 seconds.
+  path: Assets/My drawings/Ninja animation/Animations/Ninja attack/0.psd
+  artifactKey: Guid(6c7da664bf10d8b469fce8aa97fc78b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/Ninja animation/Animations/Ninja attack/0.psd using Guid(6c7da664bf10d8b469fce8aa97fc78b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a846f9ac05ec1fa84b58f6d5a543f2') in 0.377849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/My drawings/Ninja animation/Ninja idle sprites/3.psd
+  artifactKey: Guid(dea0b6559a2be8f4f9e0d13be2f420de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/Ninja animation/Ninja idle sprites/3.psd using Guid(dea0b6559a2be8f4f9e0d13be2f420de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410b6a838797ed763e5de6562faecd50') in 0.221570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/My drawings/Ninja animation/Ninja idle sprites/2.psd
+  artifactKey: Guid(f3803b724a6f6094c9864d40632e197c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/Ninja animation/Ninja idle sprites/2.psd using Guid(f3803b724a6f6094c9864d40632e197c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e781275041a894135106dbb30e4a5f') in 0.222439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/My drawings/Ninja animation/ninja attack sprites/2.psd
+  artifactKey: Guid(a31ef15439ff3dc4a8108a164fd14419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/Ninja animation/ninja attack sprites/2.psd using Guid(a31ef15439ff3dc4a8108a164fd14419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f942b4c4a4e083f674f761dba5a6d2a') in 0.219022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.844222 seconds.
+  path: Assets/My drawings/Ninja animation/Animations/Ninja attack/3.psd
+  artifactKey: Guid(afe031a9ffc98e94b9022890c6aafcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/Ninja animation/Animations/Ninja attack/3.psd using Guid(afe031a9ffc98e94b9022890c6aafcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc785f05e1d8e3e736afe17179fce280') in 0.198596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.121708 seconds.
+  path: Assets/My drawings/Ninja animation/ninja attack sprites/4.psd
+  artifactKey: Guid(acf04de1a931a174da3426c0a8659c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/Ninja animation/ninja attack sprites/4.psd using Guid(acf04de1a931a174da3426c0a8659c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90dc24c8f45f57fb49561f23c8e8988') in 0.212148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054114 seconds.
+  path: Assets/Enemies/Monster_Creatures/Monster_Creatures/Skeleton/Attack3.png
+  artifactKey: Guid(8e169bce700ec4a4bb41f1d4589c521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Monster_Creatures/Monster_Creatures/Skeleton/Attack3.png using Guid(8e169bce700ec4a4bb41f1d4589c521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4b8a3d5b04ae94abaf442bef7cd415') in 0.051931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Enemies/Monster_Creatures/Monster_Creatures/Goblin/Attack3.png
+  artifactKey: Guid(3611b8ff1b62a2e44a6e2abe14b0b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Monster_Creatures/Monster_Creatures/Goblin/Attack3.png using Guid(3611b8ff1b62a2e44a6e2abe14b0b681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16a41e692694d57a021d7f3dd7cd57e') in 0.052195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.311038 seconds.
+  path: Assets/Enemies/Monster_Creatures/Monster_Creatures/Goblin/Bomb_sprite.png
+  artifactKey: Guid(a0572c9c232f70641bf985e47a20907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Monster_Creatures/Monster_Creatures/Goblin/Bomb_sprite.png using Guid(a0572c9c232f70641bf985e47a20907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea351247b1849cc692922f1342e207f') in 0.044637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.730625 seconds.
+  path: Assets/My drawings/newja/Sprites/Dead/Dead__000.png
+  artifactKey: Guid(8ffd07b4079921d409710b9f5d123f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Dead/Dead__000.png using Guid(8ffd07b4079921d409710b9f5d123f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab7d7472f9394ca090ae9bd5026a18') in 0.054293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/My drawings/newja/Sprites/Dead/Dead__002.png
+  artifactKey: Guid(5ed7e6afe59ae1d448036768718d387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Dead/Dead__002.png using Guid(5ed7e6afe59ae1d448036768718d387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a047d12c0bbf15502036fbade00cc72b') in 0.053084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/My drawings/newja/Sprites/Dead/Dead__004.png
+  artifactKey: Guid(c9ff06818e9392e42a12edc06b23b830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Dead/Dead__004.png using Guid(c9ff06818e9392e42a12edc06b23b830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a537d1046238be6a33b73a546a2367') in 0.054802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.150750 seconds.
+  path: Assets/My drawings/newja/Sprites/Dead/Dead__005.png
+  artifactKey: Guid(3751ec0f5d6e38448996d945a35a4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Dead/Dead__005.png using Guid(3751ec0f5d6e38448996d945a35a4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4726449a41e5e76aa4bf20239796cb3e') in 0.035028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/My drawings/newja/Sprites/Dead/Dead__007.png
+  artifactKey: Guid(1d9a78f0384bbd641b977920b06bc472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Dead/Dead__007.png using Guid(1d9a78f0384bbd641b977920b06bc472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e453309ab4683390d9e95c68737bfa8f') in 0.047128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/My drawings/newja/Sprites/Dead/Dead__009.png
+  artifactKey: Guid(225a31ced8c4ddd47ad47562fe1db1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Dead/Dead__009.png using Guid(225a31ced8c4ddd47ad47562fe1db1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabd8d4a1aad811d435b5b3043a82942') in 0.048340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201405 seconds.
+  path: Assets/My drawings/newja/Sprites/Idle/Idle__000.png
+  artifactKey: Guid(3b1a54973542cba40ba68792be5c3f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Idle/Idle__000.png using Guid(3b1a54973542cba40ba68792be5c3f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baa61982218728181c4644377eac4a0') in 0.037094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/My drawings/newja/Sprites/Idle/Idle__002.png
+  artifactKey: Guid(58f5dc8feafd50945afcf5aab3df87b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Idle/Idle__002.png using Guid(58f5dc8feafd50945afcf5aab3df87b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85dd442c52f5823e6648c6b789b4bc1') in 0.036609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201346 seconds.
+  path: Assets/My drawings/newja/Sprites/Idle/Idle__003.png
+  artifactKey: Guid(1cab6eed1e7d5cb458feaa2d69d3098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Idle/Idle__003.png using Guid(1cab6eed1e7d5cb458feaa2d69d3098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3569da6817e19d4d0f32c2cef82de0d0') in 0.027138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/My drawings/newja/Sprites/Idle/Idle__006.png
+  artifactKey: Guid(29cf92820c34198479f23e426e44ade2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Idle/Idle__006.png using Guid(29cf92820c34198479f23e426e44ade2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e4e911b584b6e5f5d7015daee8d840') in 0.032552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/My drawings/newja/Sprites/Idle/Idle__008.png
+  artifactKey: Guid(1c77f6c145b4fa24ba5b296f8ba2ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Idle/Idle__008.png using Guid(1c77f6c145b4fa24ba5b296f8ba2ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45ecb2296e9785a9ba110a76c4fcd6a') in 0.044864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.168290 seconds.
+  path: Assets/My drawings/newja/Sprites/Idle/Idle__009.png
+  artifactKey: Guid(9e307387157f93d41a87b8cd6f177cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Idle/Idle__009.png using Guid(9e307387157f93d41a87b8cd6f177cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39046c06093c80d0638050de5aaa73b') in 0.038058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/My drawings/newja/Sprites/Jump/Jump__003.png
+  artifactKey: Guid(4594d3d725763f34397e7bfef155dc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Jump/Jump__003.png using Guid(4594d3d725763f34397e7bfef155dc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3f0f0f45f334148e648075e958f49f') in 0.067723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193889 seconds.
+  path: Assets/My drawings/newja/Sprites/Jump/Jump__004.png
+  artifactKey: Guid(ba0d510953e664e44a6e395727877a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Jump/Jump__004.png using Guid(ba0d510953e664e44a6e395727877a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b95067a58c65e5e42b3017ddfadc519') in 0.054058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/My drawings/newja/Sprites/Jump/Jump__007.png
+  artifactKey: Guid(e71214d5aed565048907e7f3bdd574b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Jump/Jump__007.png using Guid(e71214d5aed565048907e7f3bdd574b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689fe095ab89812f90d33d01635807a4') in 0.041173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.222514 seconds.
+  path: Assets/Enemies/Monster_Creatures/Monster_Creatures/Mushroom/Projectile_sprite.png
+  artifactKey: Guid(a798009ad60cc224eb85c8734c3cb7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Monster_Creatures/Monster_Creatures/Mushroom/Projectile_sprite.png using Guid(a798009ad60cc224eb85c8734c3cb7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c133f33409fa9fafdc95aa7e168927c') in 0.034486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_boot_l_04.png
+  artifactKey: Guid(7b9383d96cedcd9409cc1f3d6d355cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_boot_l_04.png using Guid(7b9383d96cedcd9409cc1f3d6d355cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28c8f53c3d934bae012b3ae28f1745c') in 0.102505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143633 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_boot_l_06.png
+  artifactKey: Guid(add7b98e4870e9d4c8e1dd5e07e3de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_boot_l_06.png using Guid(add7b98e4870e9d4c8e1dd5e07e3de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc936de7daf1e0febc9b4f1c7bc5288') in 0.070071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_boot_r_06.png
+  artifactKey: Guid(a366da325a505654e94ff671e63cde89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_boot_r_06.png using Guid(a366da325a505654e94ff671e63cde89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea2055cd5df79427cca9f0e9363cc7a') in 0.086862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809882 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_l_01.png
+  artifactKey: Guid(48ecbe245379f214497aae538fe1d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_l_01.png using Guid(48ecbe245379f214497aae538fe1d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f2ec0acac37d5b251e183096e82199') in 0.070875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_r_02.png
+  artifactKey: Guid(e1cf0148d2f367e42966b7ce6ee32e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_r_02.png using Guid(e1cf0148d2f367e42966b7ce6ee32e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e77c35b8a852fba668fa09ac50cb1dd') in 0.081552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_face_01.png
+  artifactKey: Guid(518ab34707033904cb1d99dbfcc9f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_face_01.png using Guid(518ab34707033904cb1d99dbfcc9f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d540b9ec4ccdf4795f9559e727de658') in 0.076548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_l_02.png
+  artifactKey: Guid(57e9977661e6a7246b75c2de487e5bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_l_02.png using Guid(57e9977661e6a7246b75c2de487e5bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ffdd4436274de3c6ecf1cda16246c0') in 0.077678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_006.png
+  artifactKey: Guid(5d7ff4b982784f843b12c8448e652a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_006.png using Guid(5d7ff4b982784f843b12c8448e652a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fb423085c0b01134bdd29e48dd079') in 0.080446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/My drawings/newja/Sprites/Run/Run__004.png
+  artifactKey: Guid(8b14f7fb179785046a8dbf97c7120830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Run/Run__004.png using Guid(8b14f7fb179785046a8dbf97c7120830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55bcad77ea21917daddce9984e150a6') in 0.045950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/My drawings/newja/Sprites/Run/Run__008.png
+  artifactKey: Guid(167312c04e1c4ba478df65092ffa26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Run/Run__008.png using Guid(167312c04e1c4ba478df65092ffa26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0fe7b0a13f3587b17006a3eafbf0f0') in 0.047070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/My drawings/newja/Sprites/Slide/Slide__004.png
+  artifactKey: Guid(e9fe745e9db5dd542837781e7659dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Slide/Slide__004.png using Guid(e9fe745e9db5dd542837781e7659dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752330cedfc563e314c88e7c6b6040fc') in 0.049217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/My drawings/newja/Sprites/Slide/Slide__006.png
+  artifactKey: Guid(f74519d3236bf154db0abea81454d34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Slide/Slide__006.png using Guid(f74519d3236bf154db0abea81454d34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dc26cb3ba4fdaad225f724ce938494') in 0.039365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_pelvis_03.png
+  artifactKey: Guid(0c6412d95175c2b40bd9a27f7d1fa096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_pelvis_03.png using Guid(0c6412d95175c2b40bd9a27f7d1fa096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768a962db7954d05bbbd67d2423b10a2') in 0.068074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_torso_06.png
+  artifactKey: Guid(250530d3e9754ed418009e3d539275b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_torso_06.png using Guid(250530d3e9754ed418009e3d539275b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb9636e048ac1c020c235b103493382') in 0.073091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_head_01.png
+  artifactKey: Guid(e17e5dd745f21b043bd6d387e5c5a19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_head_01.png using Guid(e17e5dd745f21b043bd6d387e5c5a19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072a0fc1f4ab124c1bd33128535a73bb') in 0.074853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_face_04.png
+  artifactKey: Guid(f0dca671fefddc54c98270536b979b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_face_04.png using Guid(f0dca671fefddc54c98270536b979b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9bd095d92a2c91e3c2e7a1f002b213') in 0.068805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_leg_l_02.png
+  artifactKey: Guid(925993f8892fa474c904d0e9a8f67cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_leg_l_02.png using Guid(925993f8892fa474c904d0e9a8f67cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659f0f72e2fcc01efb13328d92bc6a86') in 0.069775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_r_05.png
+  artifactKey: Guid(44abaa0566659e146ad1c3d17addf82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_r_05.png using Guid(44abaa0566659e146ad1c3d17addf82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268d3e503b8aff5317e25e81196a449') in 0.074776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_l_03.png
+  artifactKey: Guid(805906b1206aa944b99385aa2c600d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_l_03.png using Guid(805906b1206aa944b99385aa2c600d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e662b1f7540e87a8fae4dabc2790132c') in 0.072899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_face_06.png
+  artifactKey: Guid(7db7af78e8f9c45418a407bdd7958560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_face_06.png using Guid(7db7af78e8f9c45418a407bdd7958560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6527712d17b004f8fb186dd46cfbaf49') in 0.089540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_pelvis_01.png
+  artifactKey: Guid(c376d5b80d02ffe4ba89fd03d60ec471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_pelvis_01.png using Guid(c376d5b80d02ffe4ba89fd03d60ec471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31df9a141cb92b70d9522c13d54d35b2') in 0.084309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_torso_05.png
+  artifactKey: Guid(fff248787aa9dc44d819b77a6686c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_torso_05.png using Guid(fff248787aa9dc44d819b77a6686c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984a78b3ed1c3640d456b42c022bf33b') in 0.091791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_l_06.png
+  artifactKey: Guid(e4c8d3fb89489fc4684fb809362e237c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_l_06.png using Guid(e4c8d3fb89489fc4684fb809362e237c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf22d254effc276784431fdcbfd53357') in 0.076425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_l_02.png
+  artifactKey: Guid(342c30774664cc34088bfe173b77c96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_l_02.png using Guid(342c30774664cc34088bfe173b77c96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c5f66f00fa6e90cf070409ee3e0817') in 0.082763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_r_05.png
+  artifactKey: Guid(c8246436787abd045a65c5d246ef4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_r_05.png using Guid(c8246436787abd045a65c5d246ef4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dee2e4e5d435ed8dfa7202e497ea95') in 0.087578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_05.png
+  artifactKey: Guid(97ad91e8b9bc5f94f941f06a70776c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_05.png using Guid(97ad91e8b9bc5f94f941f06a70776c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d11ed9dd3c72928e8c8fe397b032d7') in 0.088067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/My drawings/newja/Sprites/Run/Run__002.png
+  artifactKey: Guid(dffe123624804f34cbb257de1bff832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My drawings/newja/Sprites/Run/Run__002.png using Guid(dffe123624804f34cbb257de1bff832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c735253c3b56b2de96b9ee389a98eac8') in 0.040213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_leg_l_03.png
+  artifactKey: Guid(5cb065829e2f3084cb4dd46e0f41fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_leg_l_03.png using Guid(5cb065829e2f3084cb4dd46e0f41fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85de387caf5f10093d4ccaa850202837') in 0.088896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_hood_04.png
+  artifactKey: Guid(dcb72940063c94f44abc2366768e713a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_hood_04.png using Guid(dcb72940063c94f44abc2366768e713a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fae0fe5fd204a176d6ff1688ae41677') in 0.089164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_r_03.png
+  artifactKey: Guid(30716b7cc770c7b46beff26e032f9ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_r_03.png using Guid(30716b7cc770c7b46beff26e032f9ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0fdc9b9d7e1e343f707093e7124be2') in 0.085379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_003.png
+  artifactKey: Guid(3a3f60d3a7506e54795a7bdc644550c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_003.png using Guid(3a3f60d3a7506e54795a7bdc644550c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1ee0fd73e1d89dd2afd24f005eb22e') in 0.079459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_06.png
+  artifactKey: Guid(37e05d8dcd5e386498e75d924efbc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_06.png using Guid(37e05d8dcd5e386498e75d924efbc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac70881075d66a13871eea0efd542a9d') in 0.087577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_l_06.png
+  artifactKey: Guid(767ae73862a0c7c418959a63daafaae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_l_06.png using Guid(767ae73862a0c7c418959a63daafaae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fb4378a092f0c3bec828b673000b40') in 0.086941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_01.png
+  artifactKey: Guid(f8d916881a19b7a4a99ec74753414a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Weapons/Rogue_weapon_01.png using Guid(f8d916881a19b7a4a99ec74753414a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6025a6a5105990853acb364d5d0244e0') in 0.098171 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
